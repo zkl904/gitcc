@@ -1,0 +1,73 @@
+html, body { width: 100%; height: 100%; margin: 0; padding: 0; overflow-x: hidden; }
+
+ul, li { margin: 0; padding: 0; list-style: none; }
+
+section { margin-top: 8vh; }
+
+section .goods_list li { height: 26vw; border-bottom: 2px solid darkgray; width: 100vw; }
+
+section .goods_list li img { width: 19vw; }
+
+section .goods_list li img, section .goods_list li .check, section .goods_list li p { float: left; }
+
+section .goods_list li .check { margin-top: 10vw; margin-right: 10px; }
+
+section .goods_list li p { line-height: 30px; width: 70vw; }
+
+section .goods_list li p a { display: block; text-decoration: none; color: #333333; }
+
+section .goods_list li p span.price { float: left; color: red; font-weight: 600; }
+
+section .goods_list li p .number { float: right; margin: 0; padding: 0; position: relative; margin-right: 10px; }
+
+section .goods_list li p .number input { width: 20px; height: 15px; text-align: center; margin: 0; border: none; }
+
+section .goods_list li p .number button { border: 1px solid darkgray; }
+
+section .goods_list li p .iconfont { float: right; border: none; background: white; margin-top: 8px; }
+
+.goods_list li {
+  display: flex;justify-content: space-around;font-size: 16px;
+}
+.goods_list li .title_left{
+
+  flex: 2  ;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around ;
+  align-items: center;
+}
+.goods_list li img{
+  flex: 1
+}
+
+.goods_list li .sum{
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goods_list li .num_div{
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.goods_list li .num_div .num,.goods_list li .num_div input{
+  width: 3vh;
+  height: 3vw;
+  line-height: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+
+.footer2 { width: 100%; height: 40px; position: fixed; bottom: 0; background: #8e488e; font-weight: 600; }
+
+.footer2 a { text-decoration: none; float: left; height: 40px; line-height: 40px; text-align: center; font-size: 1em; }
+
+.footer2 label { float: left; width: 30vw; height: 40px; background: white; color: #333333; position: relative; text-align: center; line-height: 40px; }
+
+.footer2 a.pay_way { width: 35vw; background: deeppink; color: white; }
+
+.footer2 a.buy { width: 35vw; background: #8e488e; color: white; }

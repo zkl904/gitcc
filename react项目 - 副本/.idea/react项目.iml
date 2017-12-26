@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../vue项目" />
+    <content url="file://H:/F盘/html5/课件及学习视频资料/千峰学习/第三阶段/2017-10-16" />
+    <content url="file://H:/F盘/html5/课件及学习视频资料/千峰学习/第三阶段/vue项目" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
