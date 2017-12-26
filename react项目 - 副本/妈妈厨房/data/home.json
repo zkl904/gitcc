@@ -1,0 +1,21 @@
+[
+{   "id" : 1,
+    "image":"images/p.png",
+   "name" : "商务单人餐",
+    "price":"30"
+},{
+    "id" : 2,
+   "image":"images/p1.png",
+   "name" : "虐狗情人杯",
+   "price":"40"
+},{
+    "id" : 3,
+    "image":"images/p2.png",
+   "name" : "卤!香滑鸡",
+   "price":"50"
+},{
+     "id" : 4,
+     "image":"images/p3.png",
+       "name" : "酷炫绵绵球",
+       "price":"60"
+}]
